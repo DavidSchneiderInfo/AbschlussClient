@@ -1,5 +1,5 @@
 import { Text, View } from '@/components/Themed';
-import {useSession} from "@/providers/session";
+import {useSession} from "@/components/providers/session";
 
 export default function TabOneScreen() {
   const { signOut } = useSession();
